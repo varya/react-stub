@@ -1,0 +1,8 @@
+.Header-Menu {
+  &-Item {
+    cursor: pointer;
+    &_Active {
+      background-color: pink;
+    }
+  }
+}

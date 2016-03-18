@@ -1,0 +1,59 @@
+{
+  "name": "toiletnow",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node devServer.js",
+    "build": "NODE_ENV=production webpack --config webpack.config.prod.js",
+    "graphiql": "reindex graphiql",
+    "schema-fetch": "reindex schema-fetch",
+    "schema-push": "reindex schema-push",
+    "schema-relay": "reindex schema-relay data/schema.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/kulutus/toiletnow-front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/kulutus/toiletnow-front#readme",
+  "dependencies": {
+    "babel-runtime": "^6.0.14",
+    "classnames": "^2.2.3",
+    "core-js": "^2.0.3",
+    "history": "^1.17.0",
+    "react-document-title": "^2.0.0",
+    "react-leaflet": "^0.9.0",
+    "react-router": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-react-transform": "^1.1.1",
+    "babel-plugin-transform-es2015-spread": "^6.4.0",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.19.0",
+    "express": "^4.13.3",
+    "file-loader": "^0.8.5",
+    "image-webpack-loader": "^1.6.3",
+    "postcss-cssnext": "^2.4.0",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-loader": "^0.8.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.0",
+    "react-toolbox": "^0.14.1",
+    "react-transform-catch-errors": "^1.0.0",
+    "react-transform-hmr": "^1.0.0",
+    "redbox-react": "^1.0.1",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.12.4",
+    "webpack": "^1.12.0",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.0.0",
+    "webpack-stream": "^3.1.0"
+  }
+}

@@ -1,0 +1,19 @@
+@custom-media --smartphone-portrait (width >= 300px) and (width <= 1024px);
+
+html, #root, .MapBox
+{
+  height: 100%;
+  font-size: 100%;
+  @media (--smartphone-portrait) {
+    font-size: 75%;
+  }
+}
+
+.Page
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Roboto,sans-serif;
+  font-size: 1.6rem;
+}
