@@ -1,5 +1,9 @@
 # React project stub
 
+## Libraries
+
+Uses [React Toolbox](http://react-toolbox.com/#/).
+
 ## How to start
 
 You should have React Tools installed globally:
