@@ -5,6 +5,8 @@ import DocumentTitle from 'react-document-title';
 import Page from '../../components/Page/Page.js';
 import Header from '../../components/Header/Header.js';
 
+import MyButton from '../../components/MyButton/MyButton.js';
+
 export default class Settings extends Component {
 
   constructor (props) {
@@ -16,7 +18,7 @@ export default class Settings extends Component {
       <DocumentTitle title="Settings">
         <div>
           <Header currentPage="settings"/>
-          Here we can set up settings
+          <MyButton label="Custom button"/>
         </div>
       </DocumentTitle>
     )

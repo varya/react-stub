@@ -1,5 +1,9 @@
 # React project stub
 
+## Libraries
+
+Uses [Material UI](http://www.material-ui.com/#/).
+
 ## How to start
 
 You should have React Tools installed globally:
