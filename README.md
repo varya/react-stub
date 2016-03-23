@@ -1,5 +1,9 @@
 # React project stub
 
+## Libraries
+
+Uses [Belle](http://nikgraf.github.io/belle/) UI kit.
+
 ## How to start
 
 You should have React Tools installed globally:
